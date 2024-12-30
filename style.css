@@ -1,0 +1,71 @@
+/* .resume-btn{
+    
+} */
+
+.title{
+    font-size: 50px;
+    font-weight: bold;
+}
+.logo{
+    width: 120px;
+}
+.banner-img{
+    width: 300px;
+}
+.banner-txt{
+    width: 500px;
+}
+.port-img{
+    width: 1100px;
+}
+.cnt-sec{
+    width: 600px;
+
+}
+.form-cont{
+    box-shadow: 4px 4px 4px gray;
+}
+.send-btn{
+    padding: 5px 70px;
+    border-radius: 1px;
+}
+.link-hov:hover{
+    color: blue;
+    /* cursor: pointer; */
+}
+.card-conti{
+    width: 950px;
+}
+.im-port{
+    width: 400px;
+}
+
+@media only screen and (min-width: 400px) and (max-width:767px){
+    .ban-cont{
+        flex-direction: column;
+    }
+    .banner-txt{
+        width: 300px;
+    }
+    .card-conti{
+        width: 400px;
+    }
+    .banner-img{
+        /* width: 100px; */
+    }
+    .im-port{
+        width: 400px;
+    }
+    .card-cont{
+        flex-direction: column;
+    }
+    .edu-part{
+        flex-direction: column-reverse;
+    }
+    .form-cont{
+        width: 300px;
+    }
+    .port-img{
+        width: 300px;
+    }
+}
